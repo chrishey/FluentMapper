@@ -27,5 +27,10 @@ namespace Fluent_Mapper.Base
 
             return this;
         }
+
+        public ConvertedProduct Convert()
+        {
+            return new ConvertedProduct();
+        }
     }
 }

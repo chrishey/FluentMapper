@@ -11,7 +11,12 @@ namespace Fluent_Mapper.Services
 
         public Product GetFullProduct(Entity entity)
         {
-            return new Product().MapLite(entity).MapFull(entity);
+            return GetLiteProduct(entity).MapFull(entity);
+        }
+
+        public ConvertedProduct ConvertToThing(Entity entity)
+        {
+            return GetFullProduct(entity).Convert();
         }
     }
 }

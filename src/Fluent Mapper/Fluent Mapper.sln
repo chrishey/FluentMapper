@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent Mapper", "Fluent Mapper.csproj", "{A3195AF5-B456-4154-B7DC-3A6296F9C97D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapper.Console", "..\Mapper.Console\Mapper.Console.csproj", "{C0F2E053-57DA-43F7-82E3-EE4BB4B1086A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{A3195AF5-B456-4154-B7DC-3A6296F9C97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3195AF5-B456-4154-B7DC-3A6296F9C97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3195AF5-B456-4154-B7DC-3A6296F9C97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F2E053-57DA-43F7-82E3-EE4BB4B1086A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F2E053-57DA-43F7-82E3-EE4BB4B1086A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F2E053-57DA-43F7-82E3-EE4BB4B1086A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F2E053-57DA-43F7-82E3-EE4BB4B1086A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
