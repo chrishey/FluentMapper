@@ -1,6 +1,8 @@
-﻿namespace Fluent_Mapper.Base
+﻿using Fluent_Mapper.Mappers;
+
+namespace Fluent_Mapper.Base
 {
-    public class Product
+    public class Product : IMapper<Product, Entity>
     {
         public int Id { get; set; }
         public string Name { get; set; }
