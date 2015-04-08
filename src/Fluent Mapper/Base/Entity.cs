@@ -13,7 +13,7 @@ namespace Fluent_Mapper.Base
         {
             Attribute1 = _random.Next(0, 100000).ToString();
             Attribute2 = _names[_random.Next(0, _names.Length)];
-            Attribute3 = _names[_random.Next(0, _colours.Length)];
+            Attribute3 = _colours[_random.Next(0, _colours.Length)];
         }
 
         public string Attribute1 { get; set; }
