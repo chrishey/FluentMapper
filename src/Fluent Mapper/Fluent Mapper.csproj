@@ -43,6 +43,7 @@
     <Compile Include="Base\Entity.cs" />
     <Compile Include="Base\Product.cs" />
     <Compile Include="Mappers\IMapper.cs" />
+    <Compile Include="Services\IProductService.cs" />
     <Compile Include="Services\ProductService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

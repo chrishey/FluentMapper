@@ -2,7 +2,7 @@
 
 namespace Fluent_Mapper.Services
 {
-    public class ProductService
+    public class ProductService : IProductService
     {
         public Product GetLiteProduct(Entity entity)
         {
